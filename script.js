@@ -51,7 +51,7 @@ document.querySelector(".reset").addEventListener("click", function () {
   Array.from(boxtexts).forEach((element) => {
     element.innerText = "";
   });
-  turn = "X";
+  turn = "O";
   gameover = false;
   document.querySelector(".gif").classList.add("visible");
   document.getElementsByClassName("turn")[0].innerText = "Turn for " + turn;
